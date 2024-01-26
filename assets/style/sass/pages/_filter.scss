@@ -1,0 +1,439 @@
+main {
+  #filters {
+    padding: 50px;
+
+    .container {
+      .filters {
+        display: flex;
+        gap: 58px;
+
+        .filter_column {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+
+          .filter_column_categories {
+            padding: 24px 40px;
+            width: 326px;
+
+            border-radius: 8px;
+            border: 1px solid #d0d0d0;
+            .filter_column_categories_chevron{
+              cursor: pointer;
+            }
+            .filter_column_categories_up_text {
+              display: flex;
+              justify-content: space-between;
+
+              .filter_column_categories_title {
+                color: #212121;
+
+                font-family: "Rubik", sans-serif;
+
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 170%;
+              }
+            }
+
+            .filter_column_categories_types {
+              margin-top: 15px;
+
+              p {
+                margin-top: 15px;
+
+                color: rgba(33, 33, 33, 0.9);
+                font-family: "Poppins", sans-serif;
+
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 170%;
+                /* 27.2px */
+              }
+            }
+          }
+
+          .filter_column_material {
+            width: 326px;
+            padding: 24px 40px;
+
+            flex-shrink: 0;
+            border-radius: 8px;
+            border: 1px solid #d0d0d0;
+            .filter_column_material_chevron{
+              cursor: pointer;
+            }
+            .filter_column_material_up_text {
+              display: flex;
+              justify-content: space-between;
+
+              .filter_column_material_title {
+                color: #212121;
+
+                font-family: "Rubik", sans-serif;
+
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 170%;
+              }
+            }
+
+            .filter_column_material_types {
+              margin-top: 15px;
+
+              .filter_column_material_type_cloth {
+                display: flex;
+                align-items: center;
+                margin-top: 15px;
+                gap: 6px;
+              }
+              .filter_column_material_type_cotton {
+                display: flex;
+                align-items: center;
+                margin-top: 15px;
+                gap: 6px;
+              }
+              .filter_column_material_type_exotic_leathers {
+                display: flex;
+                align-items: center;
+                margin-top: 15px;
+                gap: 6px;
+              }
+              .filter_column_material_type_denim {
+                display: flex;
+                align-items: center;
+                margin-top: 15px;
+                gap: 6px;
+              }
+
+              .filter_column_material_type_faux_fur {
+                display: flex;
+                align-items: center;
+                margin-top: 15px;
+                gap: 6px;
+              }
+              .filter_column_categories_type_glitter {
+                display: flex;
+                align-items: center;
+                margin-top: 15px;
+                gap: 6px;
+              }
+
+              p {
+                color: rgba(33, 33, 33, 0.9);
+                font-family: "Poppins", sans-serif;
+
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 170%;
+                /* 27.2px */
+              }
+            }
+          }
+
+          .filter_column_price {
+            padding: 24px 40px;
+
+            width: 326px;
+            max-height: 146px;
+            flex-shrink: 0;
+            border-radius: 8px;
+         
+            border: 1px solid #d0d0d0;
+            .filter_column_price_chevron{
+              cursor: pointer;
+            }
+            .filter_column_price_up {
+              display: flex;
+              justify-content: space-between;
+              .filter_column_price_title {
+                color: #212121;
+
+                font-family: "Rubik", sans-serif;
+
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 170%;
+              }
+            }
+
+            .filter_column_price_between {
+              margin-top: 24px;
+
+              display: flex;
+              gap: 10px;
+              align-items: center;
+              .filter_column_price_between_search {
+                i {
+                  display: flex;
+                  align-items: center;
+                  width: 51px;
+                  height: 40px;
+                }
+              }
+
+              input {
+                padding: 0px 25px;
+                border-radius: 8px;
+
+                width: 100px;
+                height: 40px;
+                outline: none;
+                border: 1px solid #c8c8c8;
+              }
+            }
+          }
+
+          .filter_column_size {
+            width: 326px;
+            max-height: 139px;
+            flex-shrink: 0;
+            border-radius: 8px;
+            border: 1px solid #d0d0d0;
+            padding: 24px 40px;
+            .filter_column_size_chevron{
+              cursor: pointer;
+            }
+            .filter_column_size_buttons {
+              margin-top: 15px;
+              display: flex;
+              justify-content: space-between;
+              .button {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 8px;
+                border: 1px solid #c8c8c8;
+                width: 64px;
+                height: 40px;
+              }
+            }
+            .filter_column_size_up {
+              display: flex;
+              justify-content: space-between;
+              .filter_column_size_title {
+                color: #212121;
+
+                font-family: "Rubik", sans-serif;
+
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 170%;
+              }
+            }
+          }
+
+          .filter_column_color {
+            padding: 24px 40px;
+
+            max-width: 326px;
+            max-height: 159px;
+            flex-shrink: 0;
+            border-radius: 8px;
+            .filter_column_color_chevron{
+              cursor: pointer;
+            }
+            border: 1px solid #d0d0d0;
+            .color_buttons {
+              margin-top: 15px;
+              max-width: 230px;
+              display: flex;
+              flex-wrap: wrap;
+              gap: 10px;
+              .color_button {
+                width: 18px;
+                height: 18px;
+                border: 1px;
+                border-radius: 50%;
+                background-color: red;
+              }
+            }
+
+            .filter_column_color_up {
+              display: flex;
+              justify-content: space-between;
+              .filter_column_color_title {
+                color: #212121;
+
+                font-family: "Rubik", sans-serif;
+
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 170%;
+              }
+            }
+          }
+        }
+
+        .bags_column {
+
+          .cards {
+            flex-wrap: wrap;
+            position: relative;
+            gap: 20px;
+
+            .cards_chevron_left {
+              padding: 20px;
+              
+              border-radius: 50%;
+              left: -30px;
+              position: absolute;
+              z-index: 1;
+              top: 50%;
+              transform: translateY(-50%);
+              border: 1px solid black;
+            }
+
+            .cards_chevron_right {
+              position: absolute;
+              z-index: 1;
+              top: 50%;
+              right: 0;
+              transform: translateY(-50%);
+              padding: 20px;
+
+              border-radius: 50%;
+              border: 1px solid black;
+              right: -30px;
+            }
+
+            display: flex;
+            justify-content: space-between;
+
+            .card {
+              border-radius: 8px;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+              background-color: #f9f9f9;
+              width: 360px;
+              height: 508px;
+              position: relative;
+
+              padding-bottom: 28px;
+
+              .card_heart_info {
+                position: absolute;
+                top: 16px;
+                right: 16px;
+              }
+
+              .card_new_info {
+                border-radius: 8px;
+                background: #43d167;
+                position: absolute;
+                top: 16px;
+                left: 16px;
+                width: 79px;
+                height: 32px;
+                flex-shrink: 0;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                p {
+                  color: #fff;
+                  font-family: "Poppins", sans-serif;
+
+                  font-family: Poppins;
+                  font-size: 16px;
+                  font-style: normal;
+                  font-weight: 500;
+                  line-height: 170%;
+                }
+              }
+
+              .card_text {
+                padding: 0px 24px;
+
+                .card_text_description {
+                  width: 302px;
+                  margin-top: 16px;
+                  color: #000;
+
+                  font-family: Rubik;
+                  font-size: 16px;
+                  font-style: normal;
+                  font-weight: 400;
+                  line-height: 170%;
+                }
+
+                .card_text_button {
+                  button {
+                    margin-top: 31px;
+                    width: 312px;
+                    border-radius: 8px;
+                    border: 1px solid #212121;
+                    background-color: white;
+                    color: #212121;
+                    font-family: "Poppins", sans-serif;
+
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 170%;
+                    height: 48px;
+                  }
+                }
+
+                .card_text_prices {
+                  align-items: center;
+                  display: flex;
+                  margin-top: 20px;
+                  gap: 18px;
+
+                  .card_text_price {
+                    color: rgba(54, 54, 54, 0.75);
+
+                    font-family: "Poppins", sans-serif;
+
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 170%;
+                  }
+
+                  .card_text_price_discount {
+                    color: #f75145;
+
+                    font-family: "Poppins", sans-serif;
+
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 170%;
+                  }
+                }
+              }
+
+              .card_image {
+                padding: 11px 71px 0px 71px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.featured_chevron{
+  cursor: pointer;
+}
+a{
+  cursor: pointer;
+}
+.fa-magnifying-glass{
+  cursor: pointer;
+}
+button{
+  cursor: pointer;
+}

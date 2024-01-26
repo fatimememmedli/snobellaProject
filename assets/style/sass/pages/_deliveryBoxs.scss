@@ -1,0 +1,163 @@
+#details-delivery {
+    padding: 72px 0px;
+    .container {
+      display: flex;
+      padding: 32px 0px 37px 0px;
+      border: 1px solid #e4e4e4;
+      .details-delivery-box-1 {
+        width: 25%;
+  
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 48px;
+        padding-left: 37px;
+        justify-content: center;
+        border-right: 1px solid #e4e4e4;
+        .details-delivery-image {
+          margin-bottom: 12px;
+        }
+        .details-delivery-head-text {
+          margin-bottom: 16px;
+  
+          p {
+            color: #000;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 170%; /* 27.2px */
+            //   width: max-content;
+          }
+        }
+        .details-delivery-paragraph {
+          p {
+            color: rgba(33, 33, 33, 0.75);
+            text-align: center;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 170%; /* 27.2px */
+          }
+        }
+      }
+      .details-delivery-box-2 {
+        width: 25%;
+  
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 40px;
+        padding-left: 40px;
+        justify-content: center;
+        border-right: 1px solid #e4e4e4;
+        .details-delivery-image {
+          margin-bottom: 12px;
+        }
+        .details-delivery-head-text {
+          margin-bottom: 12px;
+  
+          p {
+            color: #000;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 170%; /* 27.2px */
+            //   width: max-content;
+          }
+        }
+        .details-delivery-paragraph {
+          p {
+            color: rgba(33, 33, 33, 0.75);
+            text-align: center;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 170%; /* 27.2px */
+          }
+        }
+      }
+      .details-delivery-box-3 {
+        width: 25%;
+  
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 20px;
+        padding-left: 20px;
+        justify-content: center;
+        border-right: 1px solid #e4e4e4;
+        .details-delivery-image {
+          margin-bottom: 12px;
+        }
+        .details-delivery-head-text {
+          margin-bottom: 12px;
+          display: flex;
+          justify-content: center;
+  
+          p {
+            color: #000;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 170%; /* 27.2px */
+            //   width: max-content;
+          }
+        }
+        .details-delivery-paragraph {
+          p {
+            color: rgba(33, 33, 33, 0.75);
+            text-align: center;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 170%; /* 27.2px */
+          }
+        }
+      }
+      .details-delivery-box-4 {
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 26px;
+        padding-right: 12px;
+        justify-content: center;
+        .details-delivery-image {
+          margin-bottom: 12px;
+        }
+        .details-delivery-head-text {
+          margin-bottom: 12px;
+          display: flex;
+          justify-content: center;
+  
+          p {
+            color: #000;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 170%; /* 27.2px */
+            //   width: max-content;
+          }
+        }
+        .details-delivery-paragraph {
+          p {
+            color: rgba(33, 33, 33, 0.75);
+            text-align: center;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 170%; /* 27.2px */
+          }
+        }
+      }
+    }
+  }
+  

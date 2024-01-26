@@ -1,0 +1,42 @@
+header{
+  background-color:  #007878;
+  .container{
+    .header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  height: 48px;
+
+      .header_left{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        .header_left_text{
+          color: rgba(255, 255, 255, 0.90);
+
+          font-family: "Poppins", sans-serif;
+
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 170%;
+        }
+      }
+      .header_right{
+        .header_right_text{
+          display: flex;
+          align-items: center;
+          color: rgba(255, 255, 255, 0.75);
+
+          font-family: "Poppins", sans-serif;
+
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%;
+gap: 20px;
+        }
+      }
+    }
+  }
+}

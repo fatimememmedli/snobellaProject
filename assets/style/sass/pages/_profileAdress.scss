@@ -1,0 +1,214 @@
+#myAccountAddresses {
+  .container {
+    .addresses-head {
+      padding: 32px 0 32px 0;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      .addresses-direction {
+        gap: 7px;
+        display: flex;
+        align-items: center;
+        a {
+          color: #1d1d1d;
+          font-family: Poppins;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 170%; /* 23.8px */
+        }
+        span {
+          color: rgba(29, 29, 29, 0.75);
+          font-family: Poppins;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 170%; /* 23.8px */
+        }
+      }
+      .addressesText {
+        color: #212121;
+        font-family: Rubik;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 170%; /* 68px */
+      }
+    }
+    .addresses {
+      display: flex;
+      gap: 24px;
+      //   flex-wrap: wrap;
+      .addresses-profile {
+        // min-width: 264px;
+        max-height: 369px;
+        border-radius: 8px;
+
+        .add-profile-head {
+          display: flex;
+          gap: 20px;
+          padding: 16px 33px 16px 14px;
+          border-bottom: 1px solid #e4e4e4;
+          .name-clientCode {
+            min-width: fit-content;
+
+            p {
+              color: #212121;
+              font-family: Rubik;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: 170%; /* 27.2px */
+            }
+            span {
+              color: rgba(33, 33, 33, 0.75);
+              font-family: Poppins;
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 170%; /* 23.8px */
+            }
+          }
+        }
+        a {
+          .selected-add-item {
+            background-color: #f9f9f9;
+            border-left: 2px solid #007878;
+          }
+          .add-profile-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 16px 107px 16px 24px;
+            border-bottom: 1px solid #e4e4e4;
+
+            p {
+              color: #212121;
+              font-family: Poppins;
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 170%; /* 23.8px */
+              min-width: fit-content;
+            }
+          }
+        }
+      }
+      .addresses-box {
+        display: flex;
+        gap: 24px;
+        flex-wrap: wrap;
+        .created-addresses {
+          display: flex;
+          flex-direction: column;
+          gap: 12px;
+          justify-content: center;
+          align-items: center;
+          padding: 107px 43px 107px 43px;
+          border-radius: 8px;
+          border: 1px dashed #007878;
+
+          background: #f9f9f9;
+          img {
+            cursor: pointer;
+          }
+          p {
+            color: rgba(33, 33, 33, 0.75);
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 170%; /* 27.2px */
+          }
+        }
+        .addresses-item {
+          border-radius: 8px;
+          border: 1px solid #e4e4e4;
+          .addresses-location {
+            padding: 12px 20px 9px 20px;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #e4e4e4;
+            p {
+              color: #212121;
+              font-family: Poppins;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: 170%; /* 27.2px */
+            }
+          }
+          .address-name-info {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            padding: 16px 42px 40px 20px;
+            .name {
+              color: #212121;
+              font-family: Poppins;
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: 170%; /* 23.8px */
+            }
+            .address-info {
+              display: flex;
+              flex-direction: column;
+              gap: 8px;
+              p {
+                max-width: 200px;
+                color: rgba(33, 33, 33, 0.75);
+                font-family: Poppins;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 170%; /* 23.8px */
+              }
+            }
+          }
+          .address-btns {
+            display: flex;
+            justify-content: space-between;
+            padding: 0px 20px 17px 20px;
+            .add-edit-btn {
+              padding: 6px 11px 6px 12px;
+              background-color: white;
+              border-radius: 8px;
+              border: 1px solid #e4e4e4;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              gap: 9px;
+              span {
+                color: #585858;
+                font-family: Poppins;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 170%; /* 23.8px */
+              }
+            }
+            .add-remove-btn {
+              padding: 6px 11px 6px 12px;
+              background-color: white;
+              border-radius: 8px;
+              border: 1px solid #e4e4e4;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              gap: 9px;
+              span {
+                color: #585858;
+                font-family: Poppins;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 170%; /* 23.8px */
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

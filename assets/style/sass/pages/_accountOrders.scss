@@ -1,0 +1,88 @@
+.orders-card {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 400px;
+}
+.orders-table {
+  width: 70%;
+  height: 30px;
+  display: flex;
+  box-sizing: border-box;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+.profile {
+  height: 50px;
+  width: 50px;
+  background-color: #0f0909;
+  border-radius: 50%;
+  display: inline-block;
+}
+.orders {
+  gap: 10px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.addresses-profile {
+  border: 1px solid #e4e4e4;
+
+  a {
+    text-decoration: none;
+  }
+  // min-width: 264px;
+  border-radius: 8px;
+
+  .add-profile-head {
+    display: flex;
+    gap: 20px;
+    padding: 16px 33px 16px 14px;
+    border-bottom: 1px solid #e4e4e4;
+    .name-clientCode {
+      min-width: fit-content;
+
+      p {
+        color: #212121;
+        font-family: Rubik;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 170%; /* 27.2px */
+      }
+      span {
+        color: rgba(33, 33, 33, 0.75);
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 170%; /* 23.8px */
+      }
+    }
+  }
+  a {
+    .order {
+      background-color: #f9f9f9;
+      border-left: 2px solid #007878;
+    }
+    .add-profile-item {
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid #e4e4e4;
+
+      gap: 12px;
+      padding: 16px 107px 16px 24px;
+
+      p {
+        color: #212121;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 170%; /* 23.8px */
+        min-width: fit-content;
+      }
+    }
+  }
+}

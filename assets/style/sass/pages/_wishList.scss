@@ -1,0 +1,215 @@
+section#favorites {
+    margin-bottom: 114px;
+    .container {
+      .favorites-head {
+        padding: 32px 0 32px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        .favorites-head-direction {
+          gap: 7px;
+          display: flex;
+          align-items: center;
+          a {
+            color: #1d1d1d;
+            font-family: Poppins;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 170%; /* 23.8px */
+          }
+          span {
+            color: rgba(29, 29, 29, 0.75);
+            font-family: Poppins;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 170%; /* 23.8px */
+          }
+        }
+        .favorites-head-text {
+          color: #212121;
+          font-family: Rubik;
+          font-size: 40px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 170%; /* 68px */
+        }
+      }
+    }
+    .container {
+      justify-content: space-between;
+      .favorites {
+        display: flex;
+        gap: 97px;
+  
+        .favorites-profile {
+          // min-width: 264px;
+          border-radius: 8px;
+          border: 1px solid #e4e4e4;
+          height: max-content;
+          .fav-profile-head {
+            display: flex;
+            gap: 20px;
+            padding: 16px 33px 16px 14px;
+            border-bottom: 1px solid #e4e4e4;
+            .name-clientCode {
+              min-width: fit-content;
+  
+              p {
+                color: #212121;
+                font-family: Rubik;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 170%; /* 27.2px */
+              }
+              span {
+                color: rgba(33, 33, 33, 0.75);
+                font-family: Poppins;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 170%; /* 23.8px */
+              }
+            }
+          }
+          a {
+            .selected-fav-item {
+              background-color: #f9f9f9;
+              border-left: 2px solid #007878;
+            }
+            .fav-profile-item {
+              display: flex;
+              align-items: center;
+              gap: 12px;
+              padding: 16px 107px 16px 24px;
+              border-bottom: 1px solid #e4e4e4;
+  
+              p {
+                color: #212121;
+                font-family: Poppins;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 170%; /* 23.8px */
+                min-width: fit-content;
+              }
+            }
+          }
+        }
+        .favorite-products-box {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 47px;
+  
+          .card {
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color: #f9f9f9;
+            position: relative;
+  
+            padding-bottom: 28px;
+            .card_close_info {
+              position: absolute;
+              top: 16px;
+              right: 16px;
+            }
+            .card_new_info {
+              border-radius: 8px;
+              background: #43d167;
+              position: absolute;
+              top: 16px;
+              left: 16px;
+              width: 79px;
+              height: 32px;
+              flex-shrink: 0;
+  
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              p {
+                color: #fff;
+                font-family: "Poppins", sans-serif;
+  
+                font-family: Poppins;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 170%;
+              }
+            }
+            .card_text {
+              padding: 0px 24px;
+              .card_text_description {
+                width: 302px;
+                margin-top: 16px;
+                color: #000;
+  
+                font-family: Rubik;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 170%;
+              }
+              .card_text_button {
+                button {
+                  margin-top: 31px;
+                  width: 312px;
+                  border-radius: 8px;
+                  border: 1px solid #212121;
+                  background-color: white;
+                  color: #212121;
+                  font-family: "Poppins", sans-serif;
+  
+                  font-size: 16px;
+                  font-style: normal;
+                  font-weight: 500;
+                  line-height: 170%;
+                  height: 48px;
+                }
+              }
+              .card_text_prices {
+                align-items: center;
+                display: flex;
+                margin-top: 20px;
+                gap: 18px;
+                .card_text_price {
+                  color: rgba(54, 54, 54, 0.75);
+  
+                  font-family: "Poppins", sans-serif;
+  
+                  font-size: 16px;
+                  font-style: normal;
+                  font-weight: 400;
+                  line-height: 170%;
+                }
+                .card_text_price_discount {
+                  color: #f75145;
+  
+                  font-family: "Poppins", sans-serif;
+  
+                  font-size: 20px;
+                  font-style: normal;
+                  font-weight: 600;
+                  line-height: 170%;
+                }
+              }
+            }
+  
+            .card_image {
+              
+              padding: 11px 71px 0px 71px;
+              height: 254px;
+              max-width: 360px;
+            }
+          }
+        }
+      }
+    }
+  }
+  img{
+    cursor: pointer;
+  }

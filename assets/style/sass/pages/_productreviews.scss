@@ -1,0 +1,84 @@
+section#product-reviews {
+  .container {
+    .reviews-head {
+      border-bottom: 1px solid rgba(39, 49, 66, 0.15);
+      display: flex;
+      gap: 48px;
+      padding-bottom: 16px;
+      margin-bottom: 40px;
+      p#p-description {
+        cursor: pointer;
+        color: rgba(33, 33, 33, 0.55);
+
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 170%; /* 34px */
+      }
+      p#p-reviews {
+        cursor: pointer;
+        color: #212121;
+
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 170%; /* 34px */
+      }
+    }
+    .people-reviews {
+      padding-right: 171px;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      .review-description-paragraph {
+        color: rgba(33, 33, 33, 0.75);
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 170%; /* 27.2px */
+        padding-right: 75px;
+      }
+      .person-review {
+        padding: 24px 221px 24px 41px;
+        border-radius: 8px;
+        border: 1px solid rgba(33, 33, 33, 0.28);
+
+        background: #fff;
+        .name-star {
+          display: flex;
+          gap: 24px;
+          align-items: center;
+          margin-bottom: 8px;
+          .person-name {
+            color: #212121;
+            font-family: Rubik;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 170%; /* 34px */
+          }
+        }
+        .review-date {
+          color: rgba(33, 33, 33, 0.75);
+          font-family: Poppins;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 170%; /* 23.8px */
+          margin-bottom: 24px;
+        }
+        .review-paragraph {
+          color: rgba(33, 33, 33, 0.75);
+          font-family: Poppins;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 170%; /* 23.8px */
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Elegant Tote Bag",
+      "categoryFirst": "Handbags",
+      "categorySecond": "Tote Bags",
+      "image": "./assets/images/kisspng-handbag-baggage-hand-luggage-leather-women-bag-5acd4069b62017 1.png",
+      "price": 49.99,
+      "discountPercent": 10,
+      "comment": [
+        "Spacious and stylish!",
+        "Great quality."
+      ],
+      "rating": 4.5,
+      "description": "A classic and elegant tote bag for everyday use. Made with high-quality leather material.",
+      "sale": true,
+      "color": "Black",
+      "sold": 50,
+      "createDate": "2023-01-15"
+    },
+    {
+      "id": 2,
+      "name": "Chic Crossbody Bag",
+      "categoryFirst": "Handbags",
+      "categorySecond": "Crossbody Bags",
+      "image": "./assets/images/kisspng-bag-laptop-backpack-knomo-beauchamp-5b0bf6a37cde46 7.png",
+      "price": 34.95,
+      "discountPercent": 15,
+      "comment": [
+        "Perfect size for evenings out.",
+        "Love the design."
+      ],
+      "rating": 4.2,
+      "description": "A stylish and versatile crossbody bag designed to complement your evening. ",
+      "sale": false,
+      "color": "Red",
+      "sold": 25,
+      "createDate": "2023-02-10"
+    },
+    {
+      "id": 3,
+      "name": "Casual Backpack Purse",
+      "categoryFirst": "Backpacks",
+      "categorySecond": "Casual Bags",
+      "image": "./assets/images/kisspng-handbag-satchel-leather-coach-inc-tapestry-5adb94da175541 2.png",
+      "price": 39.99,
+      "discountPercent": 5,
+      "comment": [
+        "Great for daily use.",
+        "Comfortable to carry."
+      ],
+      "rating": 4,
+      "description": "A convenient and fashionable backpack purse designed for casual outings.",
+      "sale": true,
+      "color": "Navy Blue",
+      "sold": 30,
+      "createDate": "2023-03-20"
+    },
+    {
+      "id": 4,
+      "name": "Casual Backpack Purse",
+      "categoryFirst": "Backpacks",
+      "categorySecond": "Casual Bags",
+      "image": "./assets/images/blackBag.png",
+      "price": 39.99,
+      "discountPercent": 5,
+      "comment": [
+        "Great for daily use.",
+        "Comfortable to carry."
+      ],
+      "rating": 4,
+      "description": "A convenient and fashionable backpack purse designed for casual outings.",
+      "sale": true,
+      "color": "Navy Blue",
+      "sold": 30,
+      "createDate": "2023-03-20"
+    },
+    {
+      "id": 5,
+      "name": "Elegant Tote Bag",
+      "categoryFirst": "Handbags",
+      "categorySecond": "Tote Bags",
+      "image": "./assets/images/kisspng-handbag-baggage-hand-luggage-leather-women-bag-5acd4069b62017 1.png",
+      "price": 49.99,
+      "discountPercent": 10,
+      "comment": [
+        "Spacious and stylish!",
+        "Great quality."
+      ],
+      "rating": 4.5,
+      "description": "A classic and elegant tote bag for everyday use. Made with high-quality leather material.",
+      "sale": true,
+      "color": "Black",
+      "sold": 50,
+      "createDate": "2023-01-15"
+    },
+    {
+      "id": 6,
+      "name": "Elegant Tote Bag",
+      "categoryFirst": "Handbags",
+      "categorySecond": "Casual Bags",
+      "image": "./assets/images/kisspng-handbag-baggage-hand-luggage-leather-women-bag-5acd4069b62017 1.png",
+      "price": 49.99,
+      "discountPercent": 10,
+      "comment": [
+        "Spacious and stylish!",
+        "Great quality."
+      ],
+      "rating": 4.5,
+      "description": "A classic and elegant tote bag for everyday use. Made with high-quality leather material.",
+      "sale": true,
+      "color": "Black",
+      "sold": 50,
+      "createDate": "2023-01-15"
+    }
+  ],
+  "users": [
+    {
+      "favorites": [
+        {
+          "id": 5,
+          "name": "Elegant Tote Bag",
+          "categoryFirst": "Handbags",
+          "categorySecond": "Tote Bags",
+          "image": "./assets/images/kisspng-handbag-baggage-hand-luggage-leather-women-bag-5acd4069b62017 1.png",
+          "price": 49.99,
+          "discountPercent": 10,
+          "comment": [
+            "Spacious and stylish!",
+            "Great quality."
+          ],
+          "rating": 4.5,
+          "description": "A classic and elegant tote bag for everyday use. Made with high-quality leather material.",
+          "sale": true,
+          "color": "Black",
+          "sold": 50,
+          "createDate": "2023-01-15"
+        },
+        {
+          "id": 1,
+          "name": "Elegant Tote Bag",
+          "categoryFirst": "Handbags",
+          "categorySecond": "Tote Bags",
+          "image": "./assets/images/kisspng-handbag-baggage-hand-luggage-leather-women-bag-5acd4069b62017 1.png",
+          "price": 49.99,
+          "discountPercent": 10,
+          "comment": [
+            "Spacious and stylish!",
+            "Great quality."
+          ],
+          "rating": 4.5,
+          "description": "A classic and elegant tote bag for everyday use. Made with high-quality leather material.",
+          "sale": true,
+          "color": "Black",
+          "sold": 50,
+          "createDate": "2023-01-15"
+        }
+      ],
+      "id": 1
+    }
+  ]
+}

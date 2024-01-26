@@ -1,0 +1,9 @@
+main #basket .container .basket .basket_left_box .basket_item .basket_item_left .basket_item_image {
+  width: 124px;
+  background-color: black;
+  height: 137px;
+}
+main #basket .container .basket .basket_left_box .basket_item .basket_item_left .basket_item_image img {
+  width: 100%;
+  height: 100%;
+}/*# sourceMappingURL=basket.css.map */

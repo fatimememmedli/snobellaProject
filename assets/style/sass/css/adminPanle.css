@@ -1,0 +1,220 @@
+#adminPanel .container {
+  height: 300vh;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+#adminPanel .container .created-product {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  border: 1px solid rgba(39, 49, 66, 0.15);
+  border-radius: 8px;
+  align-items: center;
+  padding: 20px 0;
+}
+#adminPanel .container .created-product .command-name {
+  color: #212121;
+  font-family: Rubik;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 170%; /* 68px */
+}
+#adminPanel .container .created-product input {
+  width: 800px;
+  height: 48px;
+  border-radius: 8px;
+  border: none;
+  background: #f7f9fc;
+  color: black;
+  padding: 15px 341px 14px 16px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+@media (max-width: 642px) {
+  #adminPanel .container .created-product input {
+    width: 100%;
+  }
+}
+#adminPanel .container .created-product .created-product-btn {
+  width: 244px;
+  border: none;
+  border-radius: 8px;
+  background: #df4244;
+  padding: 12px 12px 12px 12px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 170%; /* 27.2px */
+}
+#adminPanel .container .deleted-product {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  border: 1px solid rgba(39, 49, 66, 0.15);
+  border-radius: 8px;
+  align-items: center;
+  padding: 20px 0;
+}
+#adminPanel .container .deleted-product .command-name {
+  color: #212121;
+  font-family: Rubik;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 170%; /* 68px */
+}
+#adminPanel .container .deleted-product input {
+  width: 800px;
+  height: 48px;
+  border-radius: 8px;
+  border: none;
+  background: #f7f9fc;
+  color: black;
+  padding: 15px 341px 14px 16px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+@media (max-width: 642px) {
+  #adminPanel .container .deleted-product input {
+    width: 100%;
+  }
+}
+#adminPanel .container .deleted-product .deleted-product-btn {
+  width: 244px;
+  border-radius: 8px;
+  border: none;
+  background: #df4244;
+  padding: 12px 12px 12px 12px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 170%; /* 27.2px */
+}
+#adminPanel .container .created-user {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  border: 1px solid rgba(39, 49, 66, 0.15);
+  border-radius: 8px;
+  align-items: center;
+  padding: 20px 0;
+}
+#adminPanel .container .created-user .command-name {
+  color: #212121;
+  font-family: Rubik;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 170%; /* 68px */
+}
+#adminPanel .container .created-user input {
+  width: 800px;
+  height: 48px;
+  border-radius: 8px;
+  border: none;
+  background: #f7f9fc;
+  color: black;
+  padding: 15px 341px 14px 16px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+@media (max-width: 642px) {
+  #adminPanel .container .created-user input {
+    width: 100%;
+  }
+}
+#adminPanel .container .created-user .admin-checked {
+  width: 800px;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+}
+#adminPanel .container .created-user .admin-checked label {
+  color: #212121;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170%; /* 23.8px */
+}
+#adminPanel .container .created-user .admin-checked .admin-check {
+  width: 20px;
+  height: 20px;
+}
+#adminPanel .container .created-user .created-user-btn {
+  width: 244px;
+  border: none;
+  border-radius: 8px;
+  background: #df4244;
+  padding: 12px 12px 12px 12px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 170%; /* 27.2px */
+}
+#adminPanel .container .deleted-user {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  border: 1px solid rgba(39, 49, 66, 0.15);
+  border-radius: 8px;
+  align-items: center;
+  padding: 20px 0;
+}
+#adminPanel .container .deleted-user .command-name {
+  color: #212121;
+  font-family: Rubik;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 170%; /* 68px */
+}
+#adminPanel .container .deleted-user input {
+  width: 800px;
+  height: 48px;
+  border-radius: 8px;
+  border: none;
+  background: #f7f9fc;
+  color: black;
+  padding: 15px 341px 14px 16px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+@media (max-width: 642px) {
+  #adminPanel .container .deleted-user input {
+    width: 100%;
+  }
+}
+#adminPanel .container .deleted-user .deleted-user-btn {
+  width: 244px;
+  border: none;
+  border-radius: 8px;
+  background: #df4244;
+  padding: 12px 12px 12px 12px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 170%; /* 27.2px */
+}/*# sourceMappingURL=adminPanle.css.map */

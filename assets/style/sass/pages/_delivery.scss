@@ -1,0 +1,82 @@
+main {
+  #delivery {
+    background-color: #ececec;
+    .container {
+      .delivery {
+        height: 144px;
+        display: flex;
+      flex-wrap: wrap;
+
+        align-items: center;
+        justify-content: space-between;
+        .delivery_box {
+          width: 224px;
+          height: 48px;
+          display: flex;
+          align-items: center;
+          gap: 5px;
+
+        }
+        .delivery_box_text {
+          font-family: "Poppins", sans-serif;
+
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 27.2px;
+        }
+        .came_back_box {
+          display: flex;
+          align-items: center;
+          width: 203px;
+          gap: 5px;
+          flex-wrap: wrap;
+
+
+        }
+        .came_back_box_text {
+          font-family: "Poppins", sans-serif;
+
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 27.2px;
+        }
+        .safe_box {
+          display: flex;
+          align-items: center;
+          width: 266px;
+          gap: 5px;
+      flex-wrap: wrap;
+
+
+        }
+        .safe_box_text{
+            font-family: "Poppins", sans-serif;
+
+font-size: 16px;
+font-weight: 500;
+line-height: 27.2px;
+
+
+
+        }
+        .payment_box {
+          display: flex;
+          align-items: center;
+          width: 295px;
+          gap: 5px;
+          flex-wrap: wrap;
+
+        }
+        .payment_box_text{
+            font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 27.2px;
+
+
+
+        }
+      }
+    }
+  }
+}

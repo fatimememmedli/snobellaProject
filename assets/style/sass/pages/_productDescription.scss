@@ -1,0 +1,39 @@
+section#product-description {
+  margin-bottom: 96px;
+  .container {
+    .description-head {
+      border-bottom: 1px solid rgba(39, 49, 66, 0.15);
+      display: flex;
+      gap: 48px;
+      padding-bottom: 16px;
+      margin-bottom: 40px;
+      p#p-description {
+        cursor: pointer;
+        color: #212121;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 170%; /* 34px */
+      }
+      p#p-reviews {
+        cursor: pointer;
+        color: rgba(33, 33, 33, 0.55);
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 170%; /* 34px */
+      }
+    }
+    .review-description-paragraph {
+      color: rgba(33, 33, 33, 0.75);
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 170%; /* 27.2px */
+      padding-right: 75px;
+    }
+  }
+}

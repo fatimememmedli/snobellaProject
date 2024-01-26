@@ -1,0 +1,115 @@
+main {
+
+  #login {
+
+    padding: 50px 0px;
+    .container {
+      .name_password {
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        text-align: center;
+        padding: 50px;
+        border-radius: 8px;
+        background: #fff;
+        margin: 0 auto;
+        width: 552px;
+        height: 505px;
+        .name_password_text{
+            margin: 0 auto;
+;
+
+.name_password_title{
+    color: #212121;
+
+text-align: center;
+font-family: "Rubik", sans-serif;
+
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: 170%;
+}
+            text-align: center;
+            .name_password_description{
+                margin: 0 auto;
+                max-width: 372px;
+                color: rgba(0, 0, 0, 0.75);
+
+text-align: center;
+font-family: "Poppins", sans-serif;
+
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 170%;
+            }
+        }
+        form {
+            margin-top: 40px;
+            width: 360px;
+            margin: 0 auto;
+          display: flex;
+          flex-direction: column;
+          text-align: start;
+          input{
+
+            margin: 0 auto;
+            height: 48px;
+            width: 360px;
+            margin-top: 10px;
+            border-radius: 8px;
+border: 1px solid rgba(44, 44, 44, 0.25);
+
+
+          }
+          .checkbox{
+
+              margin: 0;
+              margin-top: -10px;
+              height: 14px;
+              width: 14px;
+          }
+          .signin{
+              margin: 0 auto;
+          }
+           
+          label{
+            color: #000;
+
+
+font-family: "Rubik", sans-serif;
+
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 170%;
+            margin-bottom: -20px;
+          }
+          .email{
+            margin-top: 40px;
+          }
+          .login_button{
+            margin-top: 30px;
+            border-radius: 8px;
+background: #F75145;
+color: white;
+height: 52px;
+color: #FFF;
+
+
+font-family: "Poppins", sans-serif;
+
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 170%;
+          }
+
+        }
+      }
+    }
+  }
+}
+
+.check_box{
+  margin-top: 5px;
+}

@@ -1,0 +1,266 @@
+main {
+  #category_first {
+    padding: 137px 0px;
+    .container {
+      .category_first_cards {
+        .category_first_cards_up_text{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 32px;
+
+            p{
+                display: flex;
+                align-items: center;
+                color: #000;
+
+text-align: center;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 170%;
+            }
+            span {
+                display: block;
+                color: #000;
+                font-family: Rubik;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 170%;
+              }
+        }
+       .cards{
+justify-content: center;
+        display: flex;
+        gap: 20px;
+        .cards_chevron_left{
+            padding: 20px;
+
+            border-radius: 50%;
+            left: -30px;
+            position: absolute;
+            z-index: 1;
+            top: 50%;
+            transform: translateY(-50%);
+            border: 1px solid black;
+
+        }
+        .cards_chevron_right{
+          
+
+            position: absolute;
+            z-index: 1;
+            top: 50%;
+            right: 0;
+            transform: translateY(-50%);
+            padding: 20px;
+
+
+            border-radius: 50%;
+            border: 1px solid black;
+           right: -30px;
+          
+
+
+        }
+        display: flex;
+        justify-content: space-between;
+        .card {
+          
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+            border-radius: 8px;
+          
+            background-color: #f9f9f9;
+            width: 360px;
+            height: 508px;
+            position: relative;
+  
+            padding-bottom: 28px;
+            .card_heart_info{
+              position: absolute;
+              top: 16px;
+              right: 16px;
+            }
+            .card_new_info {
+              border-radius: 8px;
+              background: #43d167;
+              position: absolute;
+              top: 16px;
+              left: 16px;
+              width: 79px;
+              height: 32px;
+              flex-shrink: 0;
+  
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              p {
+                color: #fff;
+                font-family: "Poppins", sans-serif;
+  
+                font-family: Poppins;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 170%;
+              }
+            }
+            .card_text {
+              padding: 0px 24px;
+              .card_text_description {
+                width: 302px;
+                margin-top: 16px;
+                color: #000;
+  
+                font-family: Rubik;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 170%;
+              }
+              .card_text_button {
+                display: flex;
+                justify-content: center;
+                button {
+                  cursor: pointer;
+                  margin-top: 31px;
+                  width: 312px;
+                  border-radius: 8px;
+                  border: 1px solid #212121;
+                  background-color: white;
+                  color: #212121;
+                  font-family: "Poppins", sans-serif;
+  
+                  font-size: 16px;
+                  font-style: normal;
+                  font-weight: 500;
+                  line-height: 170%;
+                  height: 48px;
+                }
+              }
+              .card_text_prices {
+                align-items: center;
+                display: flex;
+                margin-top: 20px;
+                gap: 18px;
+                .card_text_price {
+                  color: rgba(54, 54, 54, 0.75);
+  
+                  font-family: "Poppins", sans-serif;
+  
+                  font-size: 16px;
+                  font-style: normal;
+                  font-weight: 400;
+                  line-height: 170%;
+                }
+                .card_text_price_discount {
+                  color: #f75145;
+  
+                  font-family: "Poppins", sans-serif;
+  
+                  font-size: 20px;
+                  font-style: normal;
+                  font-weight: 600;
+                  line-height: 170%;
+                }
+              }
+            }
+  
+            .card_image {
+              padding: 11px 71px 0px 71px;
+
+            }
+          }
+       }
+        
+      }
+    }
+  }
+}
+// asdakbsjdfh;akjfksjf'fkjsdhf'khsdkjf   DEYMEK OLMAZZZZZ+-=-=-=-=-=-=
+
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+
+}
+
+
+.slick-slider {
+  margin:0 -15px;
+}
+.slick-slide {
+  padding:10px;
+
+
+  margin-right:15px;
+  margin-left:15px;
+}
+
+
+.card_text_rate{
+  display: flex;
+}
+.card_down{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+.slick-prev:before {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  content: "<";
+  color: black;
+  font-size: 40px;
+
+
+ 
+
+
+  
+}
+
+.slick-next:before {
+  content: ">";
+  color: black;
+  font-size: 40px;
+}
+.bestseller_cards{
+  display: flex;
+}
+.hero_container{
+  display: flex;
+}
+.slick-dots {
+  height: 10px;
+  top: 500px;  // play with the number of pixels to position it as you want
+right: 450px; // play with the number of pixels to position it as you want
+}
+.slick-dots li button:before
+{
+    font-size: 15px;
+    line-height: 20px;
+    color: #f75145;
+
+}
+
+text{
+  display: none;
+}
+.slick-dotted.slick-slider{
+  margin-bottom: 0;
+}
+.card_image{
+  margin-top: 50px;
+  img{
+    width: 200px;
+    height: 170px;
+  }
+}

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FONT AWSOME-=-==-=-=-=-=-= -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Google Fonts =-=-=-=-= -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Gabarito:wght@700&family=Hind:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Palanquin:wght@100;200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Main css=-==-=-=-=-=--== -->
+    <link rel="stylesheet" href="./assets/style/css/main.css" />
+    <title>Admin Panel</title>
+  </head>
+  <body>
+    <!-- header=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=- -->
+    <header>
+      <div class="container">
+        <div class="header">
+          <div class="header_left">
+            <div class="header_left_image">
+              <img src="./assets/images/phone-call-header.png" alt="" />
+            </div>
+            <div class="header_left_text">
+              <p>+748 383 23 14</p>
+            </div>
+          </div>
+          <div class="header_right">
+            <div class="header_right_text">
+              <p>Terms of Use</p>
+              <p>|</p>
+              <p>FAQ</p>
+              <p>|</p>
+              <p>Customer service</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- nav=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
+    <nav>
+      <div class="container">
+        <div class="nav-top">
+          <div class="logo">
+            <a style="color: black" href="./index.html">Snobella</a>
+          </div>
+          <input placeholder="search all product" type="text" />
+          <div class="sing-wishlist-basket">
+            <div class="nav-sign-up">
+              <img src="./assets/images/avatar 1.png" alt="" />
+              <a href="./login.html">Sign up</a>
+            </div>
+            <div class="nav-wishlist">
+              <img src="./assets/images/heart (2).png" alt="" />
+              <a href="./wishList.html">Wishlist</a>
+            </div>
+            <div class="nav-basket">
+              <img src="./assets/images/bag.png" alt="" />
+              <a href="./basket.html">Basket</a>
+            </div>
+          </div>
+        </div>
+        <div class="nav-bottom">
+          <a href="./productList.html">Evening bags</a>
+          <a href="./productList.html">Shoulder bag</a>
+          <a href="./productList.html">Backpack</a>
+          <a href="./productList.html">Handbag</a>
+          <a href="./productList.html">Postman bag</a>
+          <a href="./productList.html">Belt Bags</a>
+          <div style="display: inline" class="admin-panel">
+            <a style="font-weight: bold" href="./adminPanel.html"
+              >Admin Panel</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Main=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
+    <section id="adminPanel">
+      <div class="container">
+        <div class="created-product">
+          <div class="command-name"><p>Create New Product</p></div>
+          <input
+            id="new-product-name"
+            class="new-product-name"
+            placeholder="Enter New Product Name"
+            type="text"
+          />
+          <input
+            id="new-product-first"
+            class="new-product-first-category"
+            placeholder="Enter New Product First Category"
+            type="text"
+          />
+          <input
+            id="new-product-second"
+            class="new-product-second-category"
+            placeholder="Enter New Product Second Category "
+            type="text"
+          />
+          <input
+            id="new-product-link"
+            class="new-product-image-link"
+            placeholder="Enter New Product Image Link"
+            type="text"
+          />
+          <input
+            id="new-product-price"
+            class="new-product-price"
+            placeholder="Enter New Product Price"
+            type="number"
+          />
+          <input
+            id="new-product-percent"
+            class="new-product-discount-percent"
+            placeholder="Enter New Product Discount Percent"
+            type="number"
+          />
+          <input
+            id="new-product-rating"
+            class="new-product-rating"
+            placeholder="Enter New Product Rating"
+            type="number"
+            max="5"
+          />
+          <input
+            id="new-product-desc"
+            class="new-product-description"
+            placeholder="Enter New Product Description"
+            type="text"
+          />
+          <input
+            id="new-product-color"
+            class="new-product-color"
+            placeholder="Enter New Product Color"
+            type="text"
+          />
+          <button class="created-product-btn">Created Product</button>
+        </div>
+        <div class="deleted-product">
+          <div class="command-name">Deleted Product by Name</div>
+          <input
+            class="deleted-product-input"
+            placeholder="Enter the name of the product you want to remove"
+            type="text"
+            name=""
+            id="remove-product"
+          />
+          <button class="deleted-product-btn">Delete Product</button>
+        </div>
+        <div class="modify-product">
+          <div class="command-name">Modify Product by Name</div>
+          <label for="modify-product-name"
+            >Enter the name of the product you want to change:</label
+          >
+          <input
+            placeholder="Enter Name"
+            type="text"
+            name="modify-product-name"
+            id="modify-product-name"
+          />
+          <label for="modify-product-key"
+            >what do you want to change? (name, categoryFirst, categorySecond,
+            image, price, discountPercent, rating, description, color)</label
+          >
+          <input
+            placeholder="(name, categoryFirst, categorySecond....)"
+            type="text"
+            name="modify-product-key"
+            id="modify-product-key"
+          />
+          <label for="modify-product-value">Modify:</label>
+          <input
+            placeholder="Modify"
+            type="text"
+            name="modify-product-value"
+            id="modify-product-value"
+          />
+          <button class="modify-product-btn">Modify Product</button>
+        </div>
+        <div class="created-user">
+          <div class="command-name">Create New User</div>
+          <input
+            class="new-username-input"
+            placeholder="enter username"
+            type="text"
+            name=""
+            id="username"
+          />
+          <input
+            class="new-pass-input"
+            placeholder="enter password"
+            type="password"
+            name=""
+            id="pass"
+          />
+          <input
+            class="new-balance-input"
+            placeholder="enter balance"
+            type="number"
+            name=""
+            id="balance"
+          />
+          <input
+            class="new-email-input"
+            placeholder="enter email"
+            type="email"
+            name=""
+            id="email"
+          />
+
+          <button class="created-user-btn">Created User</button>
+        </div>
+        <div class="deleted-user">
+          <div class="command-name">Delete User by Username</div>
+          <input
+            class="delete-user-input"
+            placeholder="Enter the username of the user you want to remove"
+            type="text"
+            name=""
+            id="delete-user"
+          />
+          <button class="deleted-user-btn">Delete User</button>
+        </div>
+        <div class="modify-user">
+          <div class="command-name"><p>Modify User by Name</p></div>
+          <label for="modify-username"
+            >Enter the username of the user you want to change:</label
+          >
+          <input
+            class="modify-username-input"
+            placeholder="Enter Username"
+            type="text"
+            name="modify-username"
+            id="modify-username"
+          />
+          <label for="modify-key">what do you want to change?</label>
+          <input
+            class="modify-user-key"
+            placeholder="(username, password, balance, email)"
+            type="text"
+            name="modify-key"
+            id="modify-key"
+          />
+          <label for="modify-value">Modify:</label>
+          <input
+            class="modify-user-key-value"
+            placeholder="Modify"
+            type="text"
+            name="modify-value"
+            id="modify-value"
+          />
+          <button class="modify-user-btn">Modify User</button>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./assets/script/admin.js"></script>
+  </body>
+</html>

@@ -1,0 +1,346 @@
+#adminPanel {
+  .container {
+    height: 300vh;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    .created-product {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      border: 1px solid rgba(39, 49, 66, 0.15);
+      border-radius: 8px;
+      align-items: center;
+      padding: 20px 0;
+
+      .command-name {
+        color: #212121;
+        font-family: Rubik;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 170%; /* 68px */
+      }
+      input {
+        width: 800px;
+        height: 48px;
+        border-radius: 8px;
+        border: none;
+        background: #f7f9fc;
+        color: black;
+        padding: 15px 341px 14px 16px;
+
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%;
+        @media (max-width: 642px) {
+          width: 100%;
+        }
+      }
+      .created-product-btn {
+        width: 244px;
+        border: none;
+
+        border-radius: 8px;
+        background: #df4244;
+        padding: 12px 12px 12px 12px;
+        color: #fff;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 170%; /* 27.2px */
+      }
+    }
+    .deleted-product {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      border: 1px solid rgba(39, 49, 66, 0.15);
+      border-radius: 8px;
+      align-items: center;
+      padding: 20px 0;
+
+      .command-name {
+        color: #212121;
+        font-family: Rubik;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 170%; /* 68px */
+      }
+      input {
+        width: 800px;
+        height: 48px;
+        border-radius: 8px;
+        border: none;
+        background: #f7f9fc;
+        color: black;
+
+        padding: 15px 341px 14px 16px;
+
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%;
+        @media (max-width: 642px) {
+          width: 100%;
+        }
+      }
+      .deleted-product-btn {
+        width: 244px;
+        border-radius: 8px;
+        border: none;
+
+        background: #df4244;
+        padding: 12px 12px 12px 12px;
+        color: #fff;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 170%; /* 27.2px */
+      }
+    }
+    .created-user {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      border: 1px solid rgba(39, 49, 66, 0.15);
+      border-radius: 8px;
+      align-items: center;
+      padding: 20px 0;
+
+      .command-name {
+        color: #212121;
+        font-family: Rubik;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 170%; /* 68px */
+      }
+      input {
+        width: 800px;
+        height: 48px;
+        border-radius: 8px;
+        border: none;
+        background: #f7f9fc;
+        color: black;
+
+        padding: 15px 341px 14px 16px;
+
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%;
+        @media (max-width: 642px) {
+          width: 100%;
+        }
+      }
+      .admin-checked {
+        width: 800px;
+        display: flex;
+        gap: 10px;
+        justify-content: flex-start;
+        label {
+          color: #212121;
+          font-family: Poppins;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 170%; /* 23.8px */
+        }
+        .admin-check {
+          width: 20px;
+          height: 20px;
+        }
+      }
+      .created-user-btn {
+        width: 244px;
+        border: none;
+
+        border-radius: 8px;
+        background: #df4244;
+        padding: 12px 12px 12px 12px;
+        color: #fff;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 170%; /* 27.2px */
+      }
+    }
+    .deleted-user {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      border: 1px solid rgba(39, 49, 66, 0.15);
+      border-radius: 8px;
+      align-items: center;
+      padding: 20px 0;
+
+      .command-name {
+        color: #212121;
+        font-family: Rubik;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 170%; /* 68px */
+      }
+      input {
+        width: 800px;
+        height: 48px;
+        border-radius: 8px;
+        border: none;
+        background: #f7f9fc;
+        color: black;
+
+        padding: 15px 341px 14px 16px;
+
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%;
+        @media (max-width: 642px) {
+          width: 100%;
+        }
+      }
+      .deleted-user-btn {
+        width: 244px;
+        border: none;
+        border-radius: 8px;
+        background: #df4244;
+        padding: 12px 12px 12px 12px;
+        color: #fff;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 170%; /* 27.2px */
+      }
+    }
+    .modify-user {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      border: 1px solid rgba(39, 49, 66, 0.15);
+      border-radius: 8px;
+      align-items: center;
+      padding: 20px 0;
+
+      .command-name {
+        color: #212121;
+        font-family: Rubik;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 170%; /* 68px */
+      }
+      label {
+        color: brown;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%; /* 19.2px */
+      }
+      input {
+        width: 800px;
+        height: 48px;
+        border-radius: 8px;
+        border: none;
+        background: #f7f9fc;
+        color: black;
+        padding: 15px 341px 14px 16px;
+
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%;
+        @media (max-width: 642px) {
+          width: 100%;
+        }
+      }
+      .modify-user-btn {
+        width: 244px;
+        border-radius: 8px;
+        border: none;
+
+        background: #df4244;
+        padding: 12px 12px 12px 12px;
+        color: #fff;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 170%; /* 27.2px */
+      }
+    }
+    .modify-product {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      border: 1px solid rgba(39, 49, 66, 0.15);
+      border-radius: 8px;
+      align-items: center;
+      padding: 20px 0;
+
+      .command-name {
+        color: #212121;
+        font-family: Rubik;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 170%; /* 68px */
+      }
+
+      label {
+        max-width: 800px;
+        color: brown;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%; /* 19.2px */
+      }
+      input {
+        width: 800px;
+        height: 48px;
+        border-radius: 8px;
+        border: none;
+        background: #f7f9fc;
+        color: black;
+        padding: 15px 341px 14px 16px;
+
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%;
+        @media (max-width: 642px) {
+          width: 100%;
+        }
+      }
+      .modify-product-btn {
+        width: 244px;
+        border-radius: 8px;
+        border: none;
+
+        background: #df4244;
+        padding: 12px 12px 12px 12px;
+        color: #fff;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 170%; /* 27.2px */
+      }
+    }
+  }
+}
